@@ -11,7 +11,7 @@ function Routers() {
       <>
     <Header/>
     <div style={{position:'relative'}}>
-    <AnimatePresence>
+    <AnimatePresence initial={false}>
       <Switch location={location} key={location.pathname}>
         <Route path="/" exact component={Home} />
         <Route path="/About" exact component={About} />

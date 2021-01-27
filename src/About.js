@@ -1,8 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-// import { fadeVarient, pageTransitions, pageStyles} from "./Transitions/fadeIn";
+// import { fadeInVarient, pageTransitions, pageStyles} from "./Transitions/fadeIn";
+import { fadeOutVarient, pageTransitions, pageStyles } from "./Transitions/fadeOut";
 // import { rotateVarient, pageTransitions, pageStyles} from "./Transitions/rotate";
-import { skewVarient, pageTransitions, pageStyles} from "./Transitions/skew";
+// import { skewVarient, pageTransitions, pageStyles} from "./Transitions/skew";
 import { makeStyles,Typography } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
@@ -20,7 +21,7 @@ function About() {
       exit="out"
       animate="in"
       initial="initial"
-      variants={skewVarient}
+      variants={fadeOutVarient}
       transition={pageTransitions}
       style={pageStyles}
       className={classes.root}

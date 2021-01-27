@@ -1,4 +1,4 @@
-export const fadeVarient = {
+export const fadeInVarient = {
   in: {
     opacity: 1,
     x: 0,
