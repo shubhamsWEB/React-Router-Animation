@@ -5,4 +5,16 @@ React Routing Animations with page transitions.
 
 
 # FadeIn Animation
-![Fade In Animation](Demo/FadeIn.gif)
+![Fade In Animation](Demo/fadeIn.gif)
+
+
+# Skew Animation
+![Fade In Animation](Demo/skew.gif)
+
+
+# SlideIn Animation
+![Fade In Animation](Demo/slideIn.gif)
+
+
+# SlideOut Animation
+![Fade In Animation](Demo/slideOut.gif)
