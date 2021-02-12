@@ -1,9 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 // import { fadeInVarient, pageTransitions, pageStyles } from "./Transitions/fadeIn";
-import { fadeOutVarient, pageTransitions, pageStyles } from "./Transitions/fadeOut";
+// import { fadeOutVarient, pageTransitions, pageStyles } from "./Transitions/fadeOut";
 // import { rotateVarient, pageTransitions, pageStyles} from "./Transitions/rotate";
 // import { skewVarient, pageTransitions, pageStyles} from "./Transitions/skew";
+// import { scaleVarient, pageTransitions, pageStyles} from "./Transitions/scale";
+//import { slideInVarient, pageTransitions, pageStyles} from "./Transitions/slideIn";
+import { slideOutVarient, pageTransitions, pageStyles} from "./Transitions/slideOut";
 
 import { makeStyles,Typography } from "@material-ui/core";
 
@@ -23,7 +26,7 @@ function Home() {
       exit="out"
       animate="in"
       initial="initial"
-      variants={fadeOutVarient}
+      variants={slideOutVarient}
       transition={pageTransitions}
       style={pageStyles}
       className={classes.root}

@@ -11,9 +11,9 @@ export const scaleVarient = {
 };
 
 export const pageTransitions = {
-  type: "tween",
-  ease: "anticipate",
-  duration: 0.4,
+  type: "easing",
+  ease: "easeInOut",
+  duration: 0.6,
 };
 
 export const pageStyles = {

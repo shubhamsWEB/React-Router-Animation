@@ -1,4 +1,4 @@
-export const rotateVarient = {
+export const slideInVarient = {
   in: {
     x: 0,
     rotateY: 0,
